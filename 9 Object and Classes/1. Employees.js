@@ -1,4 +1,4 @@
-function experience(inputArray){
+function employee(inputArray){
     
     let person = {};
 
@@ -11,7 +11,7 @@ function experience(inputArray){
     }
 }
 
-experience(['Silas Butler', 'Adnaan Buckley', 'Juan Peterson', 'Brendan Villarreal']);
+employee(['Silas Butler', 'Adnaan Buckley', 'Juan Peterson', 'Brendan Villarreal']);
 
 
 // Name: Silas Butler -- Personal Number: 12
