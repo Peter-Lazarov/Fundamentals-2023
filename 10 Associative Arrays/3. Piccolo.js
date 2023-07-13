@@ -1,7 +1,7 @@
-function piccolo(allWordsString){
+function piccolo(allCars){
     let parking = new Map();
     
-    for (const line of allWordsString) {
+    for (const line of allCars) {
         let [action, carNumber] = line.split(", ");
         if(action == "IN"){
             parking.set(carNumber);
